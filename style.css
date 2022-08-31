@@ -1,0 +1,63 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 90vh;
+}
+main {
+   min-height: inherit;
+   position: relative;
+   height: inherit;
+}
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    margin: 10vh auto;
+    width: 25% ;
+    height: 70vh;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.card img {
+    border-radius: 35px;
+    padding: 20px;
+}
+.card h1 {
+    font-family: Outfit;
+    font-size: 1.5em;
+    color:  hsl(218, 44%, 22%);
+    padding: 5px 20px;
+    text-align: center;
+}
+.card .info p {
+    padding: 5px 20px;
+    font-family: Outfit;
+    text-align: center;
+    font-size: 18px;
+    color: hsl(220, 15%, 55%);
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+    
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .card {
+        width: 50%;
+        height: 85%;
+        margin: 5% auto 5% auto; 
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    
+    .card {
+        width: 90%;
+        height: 100%;
+        margin: 25% auto 5% auto; 
+       
+    }
+}
